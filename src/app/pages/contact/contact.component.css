@@ -1,0 +1,86 @@
+.contact {
+    padding: 130px 0;
+  }
+  
+  .contact .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .contact .heading h2 span {
+    color: #cf1049;
+  }
+  
+  .contact .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #1979f5;
+    margin: 20px 0 60px;
+    padding: 0;
+  }
+  
+  .contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #c7c0c0d7;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #ee0959;
+    color: #ffffff;
+  }
+  
+  .contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #07e2d4;
+  }
+  
+  .contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0dbebe;
+    line-height: 1.6;
+    margin: 0 0 40px;
+  }
+  
+  .contact .content .info {
+    margin-top: 30px;
+  }
+  .contact .content .info i {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: #070f0f;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+  }
+  .contact .content .info h4 {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #030c0c;
+  }
+  
+  .contact .content .info h4 span {
+    font-size: 20px;
+    font-weight: 300;
+    color: #08090a;
+  }
+  .bkimg{
+    background-image: url(../../../assets/ec5.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+  
+  
+  }

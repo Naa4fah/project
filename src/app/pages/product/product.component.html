@@ -1,0 +1,40 @@
+<!--For Page-->
+<div class="page">
+	<!--For Row containing all card-->
+	<div class="row">
+        @for(item of Products ; track item.id)
+        {
+		<!--Card 1-->
+		<div class="col-sm" >
+			<div class="card card-cascade card-ecommerce wider shadow mb-5 " style="width:300px">
+				<!--Card image-->
+				<div class="view view-cascade overlay text-center"> <img class="card-img-top" src="{{item.image}}" alt=""> <a>
+						<div class="mask rgba-white-slight"></div>
+					</a> </div>
+				<!--Card Body-->
+				<div class="card-body card-body-cascade text-center">
+					<!--Card Title-->
+					<h4 class="card-title"><strong><a href="">{{item.title}}</a></strong></h4> 
+                    <!-- Card Description-->
+					<p class="card-text">{{item.description}} </p>
+					<p class="price">{{item.price}}</p>
+
+
+                     <!-- Card Rating-->
+					<ul class="row rating">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+					</ul>
+					<!--Card footer-->
+					<div class="card-footer">
+						<p routerLink="{{item.id}}">ADD TO CART</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    }
+	</div>
+</div>
